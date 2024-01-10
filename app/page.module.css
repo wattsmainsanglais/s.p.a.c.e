@@ -6,3 +6,17 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+
+.nftGallery{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  
+}
+
+.nftImage{
+  margin: 1%;
+}
