@@ -29,7 +29,7 @@ export default function Home() {
         </section>
 
         <section className={styles.loreWrapper}>
-          <Lore cascade damping={1} delay={1} />
+          <Lore/>
         </section>
         
         <Starfield/>
