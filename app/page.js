@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import ArtBox from './components/art-reveal'
+import Lore from './components/lore'
+
 
 import Starfield from './components/starfield'
 
@@ -9,40 +12,24 @@ export default function Home() {
     
       <main className={styles.main}>
         <Image
-         src='/images/S.P.A.C.E.03.png'
+         src='/images/S.P.A.C.E.03Blurred.png'
          width={600}
          height={300}
          alt='Image Logo'
          />
-        <h2 style={{color:'white', fontSize:'20', zIndex: '11' }}>Welcome to S.P.A.C.E , Art and NFT project</h2>
+       {/*} <h2 style={{color:'white', fontSize:'20', zIndex: '11', textAlign: 'center', paddingLeft: '5%' }}>Welcome to S.P.A.C.E , Art and NFT project</h2>*/}
         <section className={styles.nftGallery}>
-          <Image
-            className={styles.nftImage}
-            src='/images/1_005.png'
-            width={300}
-            height={300}
-            alt = 'nft image' />
           
-          <Image
-            className={styles.nftImage}
-            src='/images/3_009Blue.png'
-            width={300}
-            height={300}
-            alt = 'nft image' />
+          <ArtBox src='/images/1_005.png' alt='nft image' />
+          <ArtBox src='/images/3_009Blue.png' alt='nft image'/>
+          <ArtBox src='/images/006Purple.png' />
+          <ArtBox src='/images/016Green.png' />
 
-          <Image
-            className={styles.nftImage}
-            src='/images/006Purple.png'
-            width={300}
-            height={300}
-            alt = 'nft image' />
+    
+        </section>
 
-          <Image
-            className={styles.nftImage}
-            src='/images/016Green.png'
-            width={300}
-            height={300}
-            alt = 'nft image' /> 
+        <section className={styles.loreWrapper}>
+          <Lore cascade damping={1} delay={1} />
         </section>
         
         <Starfield/>
