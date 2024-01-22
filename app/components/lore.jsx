@@ -1,4 +1,4 @@
-/* eslint react/no-unescaped-entities */
+
 'use client'
 
 import React from 'react'
@@ -22,12 +22,11 @@ export default function Lore(){
             <article className={space.className}>
             <h2>S.P.A.C.E Lore</h2>
             <br />
-
             <p>Warpy was a tiny chameleon alien with a unique ability - he could warp himself from one place to another in the blink of an eye. 
             This power made Warpy very curious, and he often found himself warping into dangerous situations just to see what was there.</p>
             <br />
             <p>But Warpy was quick and nimble, and he could always warp away if he needed to. Still, his curiosity sometimes got the best of him, 
-            and he would end up in places he really shouldn't be.
+            and he would end up in places he really shouldnt be.
             </p>
             <br />
             <p>One day, Warpy found himself being hunted by a group of gnomes. These gnomes were known for their magic, and they had been tracking 
