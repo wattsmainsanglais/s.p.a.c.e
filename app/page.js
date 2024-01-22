@@ -14,7 +14,7 @@ export default function Home() {
         <Image
          src='/images/S.P.A.C.E.03Blurred.png'
          width={600}
-         height={300}
+         height={431}
          alt='Image Logo'
          />
       
