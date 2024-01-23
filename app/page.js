@@ -1,18 +1,30 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+
 import ArtBox from './components/art-reveal'
 import Lore from './components/lore'
+import InfoBox from './components/info'
 
 
 import Starfield from './components/starfield'
 
+
 export default function Home() {
+
+ 
+
+
   return (
-    
+    <>
+      <nav className={styles.navWrapper}>
+        
+          <InfoBox />
+      </nav>
+      
       <main className={styles.main}>
         <Image
-         src='/images/S.P.A.C.E.03Blurred.png'
+         src='/images/S.P.A.C.E.04.png'
          width={600}
          height={431}
          alt='Image Logo'
@@ -35,6 +47,6 @@ export default function Home() {
         <Starfield/>
         
       </main>
-   
+      </>
   )
 }

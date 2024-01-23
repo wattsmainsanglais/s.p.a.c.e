@@ -1,0 +1,14 @@
+.InfoBox{
+    color: white;
+    border: white solid 2px;
+    position: fixed;
+    width: 60%;
+    padding: 20%;
+    background-color: black;
+    top: 20%;
+    left: 20%;
+}
+
+.InfoBoxHidden{
+    display: none;
+}

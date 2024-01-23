@@ -17,10 +17,10 @@ export default function Lore(){
 
     return (
         <>
-         <Fade cascade damping={.8} delay={1} fraction={.5}>
+         <Fade top cascade damping={.1} delay={.2} fraction={.2} className={space.className}>
         
-            <article className={space.className}>
-            <h2>S.P.A.C.E Lore</h2>
+            
+            <h2 className={styles.loreHeaderH2}>S.P.A.C.E Lore</h2>
             <br />
             <p>Warpy was a tiny chameleon alien with a unique ability - he could warp himself from one place to another in the blink of an eye. 
             This power made Warpy very curious, and he often found himself warping into dangerous situations just to see what was there.</p>
@@ -47,8 +47,7 @@ export default function Lore(){
             Despite the many dangers he faced, Warpy never lost his curious spirit. He continued to explore the universe, warping from one place 
             to another, always on the lookout for his next adventure.   
             </p>
-            </article>
-         </Fade>
+            </Fade>
             
         
         
