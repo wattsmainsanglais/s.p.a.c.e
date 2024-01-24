@@ -3,9 +3,10 @@
     border: white solid 2px;
     position: fixed;
     width: 60%;
-    padding: 20%;
+    min-height: 70%;
+    
     background-color: black;
-    top: 20%;
+    top: 15%;
     left: 20%;
 }
 

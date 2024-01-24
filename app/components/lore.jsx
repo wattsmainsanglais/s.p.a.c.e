@@ -3,21 +3,17 @@
 
 import React from 'react'
 import styles from '../page.module.css'
-import { Space_Mono } from 'next/font/google'
+
 
 
 import { Fade } from 'react-awesome-reveal'
 
-const space = Space_Mono({
-    subsets: ['latin'],
-    weight: '400'
-})
 
 export default function Lore(){
 
     return (
         <>
-         <Fade top cascade damping={.1} delay={.2} fraction={.2} className={space.className}>
+         <Fade top cascade damping={.1} delay={.2} fraction={.2}>
         
             
             <h2 className={styles.loreHeaderH2}>S.P.A.C.E Lore</h2>
