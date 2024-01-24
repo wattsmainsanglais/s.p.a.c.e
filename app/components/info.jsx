@@ -4,6 +4,7 @@ import { useState } from "react"
 import styles from './info.module.css'
 import { Roll } from "react-awesome-reveal"
 import { FiInfo } from "react-icons/fi"
+import { AttentionSeeker } from "react-awesome-reveal"
 
 
 export default function InfoBox(){
@@ -16,9 +17,14 @@ export default function InfoBox(){
 
     return(
        <>
-       <aside onMouseEnter={toggleInfoBox} onMouseLeave={toggleInfoBox} >
-        <FiInfo size={32} />
-       </aside> 
+       
+            <aside onMouseEnter={toggleInfoBox} onMouseLeave={toggleInfoBox} >
+                <AttentionSeeker effect={"heartBeat"} >
+                <FiInfo size={32} />
+                </AttentionSeeker>
+            </aside> 
+       
+       
         
         <Roll className={ showInfo ? styles.InfoBox: styles.InfoBoxHidden }>
             <article >
