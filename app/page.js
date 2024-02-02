@@ -20,6 +20,7 @@ export default function Home() {
       <nav className={styles.navWrapper}>
         
           <InfoBox />
+          <a className={styles.mintTag} href='https://buynfts.exchange/sales/space/' target='_blank'><h2>MINT</h2></a>
       </nav>
       
       <main className={styles.main}>
