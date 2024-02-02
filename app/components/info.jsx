@@ -20,7 +20,7 @@ export default function InfoBox(){
        
             <aside onMouseEnter={toggleInfoBox} onMouseLeave={toggleInfoBox} >
                 <AttentionSeeker effect={"heartBeat"} >
-                <FiInfo size={32} />
+                <FiInfo className={styles.infoLogo} size={32} />
                 </AttentionSeeker>
             </aside> 
        

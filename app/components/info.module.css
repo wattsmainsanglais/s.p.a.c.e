@@ -13,3 +13,7 @@
 .InfoBoxHidden{
     display: none;
 }
+
+.infoLogo:hover{
+    cursor: pointer;
+}
