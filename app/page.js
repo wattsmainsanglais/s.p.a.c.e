@@ -6,7 +6,7 @@ import ArtBox from './components/art-reveal'
 import Lore from './components/lore'
 import InfoBox from './components/info'
 import discordLogo from '../public/images/discord_white.svg'
-
+import SpaceLogo from '../public/images/S.P.A.C.E.04.png'
 
 import Starfield from './components/starfield'
 
@@ -18,8 +18,8 @@ export default function Home() {
 
   return (
     <>
-      <nav className={styles.navWrapper}>
-        
+      <nav className={styles.navBar}>
+        <section className={styles.navWrapper}>
           <InfoBox />
           <a className={styles.mintTag} href='https://buynfts.exchange/sales/space/' target='_blank'><h2>MINT</h2></a>
           <a className={styles.mintTag} href='https://discord.com/channels/851965221929091113/918871571098124309' target= '_blank'>
@@ -31,13 +31,18 @@ export default function Home() {
             />
 
           </a>
+        </section>
       </nav>
       
       <main className={styles.main}>
         <Image
-         src='/images/S.P.A.C.E.04.png'
-         width={600}
-         height={431}
+        
+         src={SpaceLogo}
+         style={{
+          maxWidth: '600px',
+          width:'95%',
+          height: 'auto'
+         }}
          alt='Image Logo'
          />
       

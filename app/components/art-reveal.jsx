@@ -11,6 +11,7 @@ export default function ArtBox({src, alt}){
 
     return(
        <Zoom>
+        
         <Image
             className={styles.nftImage}
             src={src}

@@ -1,7 +1,12 @@
+.navBar{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navWrapper{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   align-self: center;
   justify-content: flex-end;
 
@@ -10,7 +15,7 @@
 }
 
 .mintTag{
-  padding-bottom: .5%;
+  margin-bottom: 10%;
 }
 
 .mintTag:hover{
@@ -59,7 +64,13 @@
 @media screen and (max-width: 480px) {
   
   .main{
-    padding: 10%;
+    padding-top: 3rem;
+    
+  }
+
+  .nftGallery{
+    width: 80%;
+    margin-top: 55%;
   }
 
 }
