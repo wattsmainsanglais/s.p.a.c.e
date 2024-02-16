@@ -17,3 +17,9 @@
 .infoLogo:hover{
     cursor: pointer;
 }
+
+.infoboxArticle{
+
+    padding: 7% 3% 3% 3%;
+    font-size: 1.1em;
+}

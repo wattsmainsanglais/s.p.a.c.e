@@ -43,6 +43,10 @@ export default function Lore(){
             Despite the many dangers he faced, Warpy never lost his curious spirit. He continued to explore the universe, warping from one place 
             to another, always on the lookout for his next adventure.   
             </p>
+            <br />
+            <p>
+             If you own an NFT, look closely as Warpy maybe hanging out in the picture. He's in some of the pieces but not others...   
+            </p>
             </Fade>
             
         

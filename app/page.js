@@ -5,6 +5,7 @@ import styles from './page.module.css'
 import ArtBox from './components/art-reveal'
 import Lore from './components/lore'
 import InfoBox from './components/info'
+import discordLogo from '../public/images/discord_white.svg'
 
 
 import Starfield from './components/starfield'
@@ -21,6 +22,15 @@ export default function Home() {
         
           <InfoBox />
           <a className={styles.mintTag} href='https://buynfts.exchange/sales/space/' target='_blank'><h2>MINT</h2></a>
+          <a className={styles.mintTag} href='https://discord.com/channels/851965221929091113/918871571098124309' target= '_blank'>
+            <Image
+            src={discordLogo}
+            width={56}
+            
+            alt='Discord logo, link to PocketTowne discord server' 
+            />
+
+          </a>
       </nav>
       
       <main className={styles.main}>
