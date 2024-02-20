@@ -15,9 +15,15 @@ export default function ArtBox({src, alt}){
         <Image
             className={styles.nftImage}
             src={src}
-            width={400}
-            height={400}
-            alt = {alt} />
+           
+            alt = {alt}
+            style={{
+                maxWidth: '90%',
+                height: 'auto'
+            }
+                
+            } 
+            />
        </Zoom> 
     )
 }

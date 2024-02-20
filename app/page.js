@@ -10,6 +10,11 @@ import SpaceLogo from '../public/images/S.P.A.C.E.04.png'
 
 import Starfield from './components/starfield'
 
+//images
+import One from '../public/images/1_005.png'
+import Two from '../public/images/3_009Blue.png'
+import Three from '../public/images/3_014Purple.png'
+import Four from '../public/images/006Purple.png'
 
 export default function Home() {
 
@@ -48,10 +53,10 @@ export default function Home() {
       
         <section className={styles.nftGallery}>
           
-          <ArtBox src='/images/1_005.png' alt='nft image' />
-          <ArtBox src='/images/3_009Blue.png' alt='nft image'/>
-          <ArtBox src='/images/006Purple.png' />
-          <ArtBox src='/images/016Green.png' />
+          <ArtBox src={One} alt='nft image' />
+          <ArtBox src={Two} alt='nft image'/>
+          <ArtBox src={Three} />
+          <ArtBox src={Four} />
 
     
         </section>
