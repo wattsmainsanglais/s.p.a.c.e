@@ -45,6 +45,7 @@
 
 .loreWrapper{
   margin-top: 10%;
+  margin-bottom: 10%;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -66,6 +67,14 @@
   .main{
     padding-top: 3rem;
     
+  }
+
+  .navWrapper{
+    width: 15%;
+  }
+
+  .mintTag{
+    font-size: 0.85em;
   }
 
   .nftGallery{

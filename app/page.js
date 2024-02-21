@@ -31,6 +31,9 @@ export default function Home() {
             <Image
             src={discordLogo}
             width={56}
+            style={{
+              maxWidth: '100%'
+            }}
             
             alt='Discord logo, link to PocketTowne discord server' 
             />
