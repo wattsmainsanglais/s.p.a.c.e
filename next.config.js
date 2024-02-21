@@ -10,6 +10,6 @@ eslint: {
     ignoreDuringBuilds: true,
   },
 
-nextConfig  
+
 
 }
