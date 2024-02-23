@@ -26,11 +26,11 @@ export default function Home() {
       <nav className={styles.navBar}>
         <section className={styles.navWrapper}>
           <InfoBox />
-          <a className={styles.mintTag} href='https://buynfts.exchange/sales/space/' target='_blank'><h2>MINT</h2></a>
+          <a className={styles.mintTag} href='https://www.jpg.store/collection/space?tab=items' target='_blank'><h2>BUY</h2></a>
           <a className={styles.mintTag} href='https://discord.com/channels/851965221929091113/918871571098124309' target= '_blank'>
             <Image
             src={discordLogo}
-            width={56}
+            width={48}
             style={{
               maxWidth: '100%'
             }}
@@ -44,7 +44,7 @@ export default function Home() {
       
       <main className={styles.main}>
         <Image
-        
+         className={styles.spaceLogo}
          src={SpaceLogo}
          style={{
           maxWidth: '600px',
