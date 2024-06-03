@@ -2,13 +2,13 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 
-import ArtBox from './components/art-reveal'
-import Lore from './components/lore'
-import InfoBox from './components/info'
+import ArtBox from './_components/art-reveal'
+import Lore from './_components/lore'
+import InfoBox from './_components/info'
 import discordLogo from '../public/images/discord_white.svg'
 import SpaceLogo from '../public/images/S.P.A.C.E.04.png'
 
-import Starfield from './components/starfield'
+import Starfield from './_components/starfield'
 
 //images
 import One from '../public/images/1_005.png'
